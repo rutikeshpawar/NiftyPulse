@@ -1,0 +1,18 @@
+{
+  "NIFTY50": {
+    "file": "nifty50_daily.csv",
+    "source": "yfinance",
+    "rows": 2926,
+    "first_date": "2015-01-02",
+    "last_date": "2026-11-20",
+    "downloaded_at": "2026-11-23 18:00"
+  },
+  "INDIAVIX": {
+    "file": "indiavix_daily.csv",
+    "source": "yfinance",
+    "rows": 2915,
+    "first_date": "2015-01-01",
+    "last_date": "2026-11-20",
+    "downloaded_at": "2026-11-23 18:00"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "features": [
+    "ret_1d",
+    "abs_ret_1d",
+    "ret_lag_1",
+    "ret_lag_2",
+    "ret_5d",
+    "ret_10d",
+    "ret_21d",
+    "ret_63d",
+    "gap_pct",
+    "range_pct",
+    "body_pct",
+    "close_pos",
+    "dist_sma_50",
+    "dist_sma_200",
+    "sma50_vs_sma200",
+    "drawdown",
+    "vol_5d",
+    "vol_10d",
+    "vol_21d",
+    "vol_ratio_5_21",
+    "vix_close",
+    "vix_chg_1d",
+    "vix_chg_5d",
+    "vix_vs_ma20",
+    "vix_z_63",
+    "vix_range_pct",
+    "vix_minus_vol21"
+  ],
+  "dropped": [
+    {
+      "dropped": "atr_14_pct",
+      "kept_instead": "vol_21d",
+      "correlation": 0.92
+    },
+    {
+      "dropped": "rsi_14",
+      "kept_instead": "dist_sma_50",
+      "correlation": 0.91
+    },
+    {
+      "dropped": "dist_126d_high",
+      "kept_instead": "drawdown",
+      "correlation": 0.91
+    },
+    {
+      "dropped": "dist_sma_20",
+      "kept_instead": "ret_10d",
+      "correlation": 0.91
+    }
+  ]
+}
